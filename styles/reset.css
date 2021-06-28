@@ -1,0 +1,8 @@
+/* Resetando as configurações de estilos do navegador */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none; /* Removendo a decoração dos links */
+}
