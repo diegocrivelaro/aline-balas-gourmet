@@ -2,8 +2,11 @@
 
 /*------------------*/
 /* IMAGENS */
+
 #home #items-wrapper {
     width: 100vw;
+
+    margin-bottom: 3.2rem;
 }
 
 #home #items-wrapper #items {
@@ -32,10 +35,6 @@
 
 /*------------------*/
 /* TEXTO */
-.margin-top {
-    margin-top: 3.2rem;
-}
-
 .container #text-home {
     text-align: center;
 }
@@ -49,7 +48,7 @@
 .container #text-home p {
     font-size: 1.6rem;
 
-    margin-bottom: 1.6rem;
+    margin-bottom: 3.2rem;
 }
 /*------------------*/
 
@@ -75,6 +74,6 @@
 
 .container #text-home #button-request:hover {
     background-color: var(--pink-low-button);;
-    transform: translateY(10px);
+    transform: translateY(5px);
 }
 /*------------------*/

@@ -6,6 +6,9 @@ html {
     --pink-strong-button: #fc4d76;
     --pink-low-button: #FF7C9C;
     --border-bottom: #E4E4E4;
+    
+    --bg-strong-button-whatsapp: #54dbac;
+    --bg-low-button-whatsapp: #46bb92ec;
     --black: #000000;
     --white: #FFFFFF;
 
@@ -35,5 +38,8 @@ h2 {
 .divider {
     height: 0.1rem;
     background: linear-gradient(to left, #7B500C, #916F3A, #C79950);
+}
+.margin-top-section {
+    margin-top: 8rem;
 }
 /*------------------*/

@@ -1,0 +1,34 @@
+/*------------------*/
+/* TEXT CONTACT */
+#contact h2 {
+    margin-bottom: 1.6rem;
+}
+
+#contact p {
+    margin-bottom: 3.2rem;
+}
+/*------------------*/
+
+/*------------------*/
+/* BUTTON WHATSAPP */
+#button-whatsapp {
+    height: 5.6rem;
+    display: inline-flex;
+    align-items: center;
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+
+    background-color: var(--bg-strong-button-whatsapp);
+    border-radius: 0.4rem;
+    transition: .5s; /* Transição suave quando o usuário colocar o mouse em cima do botão. */
+    cursor: pointer;
+}
+#button-whatsapp:hover {
+    background-color: var(--pink-low-low-button);;
+    transform: translateY(5px);
+}
+#button-whatsapp a > img {
+    width: 2rem;
+    height: 2rem;
+}
+/*------------------*/
