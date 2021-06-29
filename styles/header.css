@@ -1,0 +1,23 @@
+header {
+    margin-bottom: 3.2rem;
+    border-bottom: 1px solid var(--border-bottom);
+}
+
+header .container .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+
+}
+
+header .container .header .logo-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    font-family: 'Nunito';
+
+    color: var(--pink-strong);
+}
+

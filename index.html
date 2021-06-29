@@ -9,7 +9,8 @@
         <!-- CSS -->
         <link rel="stylesheet" href="styles/reset.css">
         <link rel="stylesheet" href="styles/global.css"> 
-        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/home.css">
         
         <!-- FONTS -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,28 +24,54 @@
     </head>
 
     <body>
-        <header id="header">
-            <nav class="container">
-                <a class="logo" href="#">Aline Balas <span>Gourmet</span></a>
-                <div class="menu">...</div>
-            </nav>
+        <header>
+            <div class="container">
+                <nav class="header">
+                    <a class="logo-title" href="#">Aline Balas Gourmet</a>
+                    <div id="menu">...</div>
+                </nav>
+            </div>
         </header>
 
         <main>
-            <section class="section" id="home"> <!-- Seção principal -->
-                <div class="container grid">
-                    <div class="image">
-                        <img src="/images/logo.jpg" alt="logo da aline balas gourmet"> 
+            <section id="home">
+                <div id="items-wrapper">
+                    <div id="items">
+                        <div class="item">
+                            <img src="images/logo.jpg" alt="logo da aline balas gourmet">
+                        </div>
+                        <div class="item">
+                            <img src="images/balas-douradas.jpg" alt="logo da aline balas gourmet">
+                        </div>
+                        <div class="item">
+                            <img src="images/balas-decoradas.jpg" alt="logo da aline balas gourmet">
+                        </div>
+                        <div class="item">
+                            <img src="images/bala-de-coco.jpg" alt="logo da aline balas gourmet">
+                        </div>
+                        <div class="item">
+                            <img src="images/balas-geladas.jpg" alt="logo da aline balas gourmet">
+                        </div>
+                        <div class="item">
+                            <img src="images/pirulitos.jpg" alt="logo da aline balas gourmet">
+                        </div>
+                        <div class="item">
+                            <img src="images/pascoa.jpg" alt="logo da aline balas gourmet">
+                        </div>
+                        <div class="item">
+                            <img src="images/natal-balas.jpg" alt="logo da aline balas gourmet">
+                        </div>
                     </div>
-                    <div class="text">
+                </div>
+
+                <div class="container margin-top">
+                    <div id="text-home">
                         <h2>Balas para adoçar seu dia</h2>
                         <p>Um empreendimento localizado exclusivamente em Orlândia-SP</p>
                         <a class="button" href="#">Fazer pedido!</a>
                     </div>
                 </div>
             </section>
-
-            <div class="divider-1"> </div>
 
             <section class="section">
                 <div class="container">

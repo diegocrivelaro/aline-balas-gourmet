@@ -1,14 +1,12 @@
 html {
     font-size: 62.5%; /* User agent de 10px em vez de 16px */
 
-    --divider: #4D3900;
-    --black: #000000;
-    --white: #FFFFFF;
     --pink-strong: #FF3366;
     --pink-low: #F67797;
-    --pink-button-hover: #f86489;
+    --black: #000000;
+    --white: #FFFFFF;
+    --border-bottom: #E4E4E4;
 
-    --border-bottom: #e4e4e4;
 }
 
 /*------------------*/
@@ -21,7 +19,15 @@ body {
 
 h2 {
     font-size: 3rem;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-weight: 700;
+}
+/*------------------*/
+
+/*------------------*/
+/* LAYOUT */
+.container {
+    margin-left: 2.4rem;
+    margin-right: 2.4rem;
 }
 /*------------------*/

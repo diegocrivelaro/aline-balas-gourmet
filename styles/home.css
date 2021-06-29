@@ -1,0 +1,53 @@
+/* Início do site */
+
+/*------------------*/
+/* IMAGENS */
+#home #items-wrapper {
+    width: 100vw;
+}
+
+#home #items-wrapper #items {
+    display: flex;
+    overflow-x: auto;
+
+    scroll-snap-type: x mandatory; /* Faça o "estralo" no eixo X e seja obrigatório */
+    -webkit-overflow-scrolling: touch;
+}
+
+#home #items-wrapper #items .item {
+    width: 100%;
+    height: 40rem;
+    flex: none; /* Desabilitando opções de alargamento */
+    
+    scroll-snap-align: start; /* Ajustando a imagem quando acontece um "estralo" */
+}
+
+#home #items-wrapper #items .item img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+/*------------------*/
+
+/*------------------*/
+/* TEXTO */
+.margin-top {
+    margin-top: 3.2rem;
+}
+
+.container #text-home h2 {
+    font-size: 2.9rem;
+    text-align: center;
+}
+
+.container #text-home p {
+    font-size: 1.6rem;
+    text-align: center;
+}
+/*------------------*/
+
+/*------------------*/
+/* BOTÃO */
+
+/*------------------*/
