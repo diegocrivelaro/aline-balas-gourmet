@@ -36,18 +36,45 @@
     margin-top: 3.2rem;
 }
 
+.container #text-home {
+    text-align: center;
+}
+
 .container #text-home h2 {
     font-size: 2.9rem;
-    text-align: center;
+
+    margin-bottom: 1.6rem;
 }
 
 .container #text-home p {
     font-size: 1.6rem;
-    text-align: center;
+
+    margin-bottom: 1.6rem;
 }
 /*------------------*/
 
 /*------------------*/
 /* BOTÃO */
+.container #text-home #button-request {
+    height: 5.6rem;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 8rem;
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
 
+    background-color: var(--pink-strong-button);
+    border-radius: 0.4rem;
+    transition: .5s; /* Transição suave quando o usuário colocar o mouse em cima do botão. */
+    cursor: pointer;
+
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--white);
+}
+
+.container #text-home #button-request:hover {
+    background-color: var(--pink-low-button);;
+    transform: translateY(10px);
+}
 /*------------------*/
