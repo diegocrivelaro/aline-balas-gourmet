@@ -1,4 +1,5 @@
-/* Resetando as configurações de estilos do navegador */
+/*------------------*/
+/* RESETANDO AS CONFIGURAÇÕES PADRÕES DE ESTILO DO NAVEGADOR */
 
 * {
     margin: 0;
@@ -6,3 +7,8 @@
     box-sizing: border-box;
     text-decoration: none; /* Removendo a decoração dos links */
 }
+
+ul {
+    list-style: none;
+}
+/*------------------*/
