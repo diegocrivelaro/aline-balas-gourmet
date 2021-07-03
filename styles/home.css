@@ -48,6 +48,7 @@
 
 .container #text-home p {
     font-size: 1.6rem;
+    color: var(--gray);
 
     margin-bottom: 1.6rem;
 }
@@ -75,6 +76,6 @@
 
 .container #text-home #button-request:hover {
     background-color: var(--pink-low-button);;
-    transform: translateY(10px);
+    transform: translateY(0.5rem);
 }
 /*------------------*/
