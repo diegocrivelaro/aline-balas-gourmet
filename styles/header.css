@@ -11,7 +11,7 @@ header {
     background-color: var(--white);
 }
 
-nav {
+header nav {
     height: 7.2rem;
     display: flex;
     align-items: center;
