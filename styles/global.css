@@ -38,6 +38,8 @@ body {
 }
 .divider {
     height: 0.1rem;
+    margin-bottom: 8rem;
+    margin-top: 8rem;
     background: linear-gradient(to left, #7B500C, #916F3A, #C79950);
 }
 /*------------------*/

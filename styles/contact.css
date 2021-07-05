@@ -1,0 +1,76 @@
+/*------------------*/
+/* LAYOUT */
+#contact {
+    margin-bottom: 8rem;
+}
+/*------------------*/
+
+/*------------------*/
+/* TEXT */
+#contact h2 {
+    margin-bottom: 1.6rem;
+}
+
+#contact p {
+    color: var(--gray);
+
+    margin-bottom: 3.2rem;
+}
+/*------------------*/
+
+/*------------------*/
+/* WHATSAPP BUTTON */
+#contact .whatsapp-button {
+    display: inline-block;
+    padding-right: 3.2rem;
+    padding-left: 3.2rem;
+    padding-top: 1.8rem;
+    padding-bottom: 1.8rem;
+
+    margin-bottom: 2.4rem;
+
+    background-color: var(--bg-strong-button-whatsapp);
+    border-radius: .4rem;
+}
+
+#contact .icon-whatsapp {
+    display: inline-flex;
+    align-items: center;
+
+    font-size: 2.4rem;
+    color: var(--white);
+}
+
+#contact .whatsapp-button a > span {
+    font-size: 1.6rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    color: var(--white);
+
+    padding-left: .8rem;
+}
+/*------------------*/
+
+/*------------------*/
+/* INFORMATION */
+#contact .contact-inf a > span {
+    font-size: 1.6rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    color: var(--gray);
+
+    padding-left: 1.2rem;
+}
+
+#contact .contact-inf a {
+    display: flex;
+    align-items: center;
+
+    font-size: 2.4rem;
+    color: #FF809F;
+}
+
+#contact .contact-inf a:first-of-type {
+    margin-bottom: 1.8rem;
+}
+/*------------------*/
