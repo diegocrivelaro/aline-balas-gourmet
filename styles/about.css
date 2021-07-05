@@ -1,0 +1,27 @@
+/*------------------*/
+/* ABOUT IMAGE */
+#about .about-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about .about-image > img {
+    height: 36rem;
+    object-fit: cover;
+
+    border: .4rem solid var(--pink-low);
+    border-radius: 100%;
+}
+/*------------------*/
+
+/*------------------*/
+/* TEXT ABOUT */
+#about div:last-of-type > h2 {
+    margin-bottom: 1.6rem;
+}
+
+#about div:last-of-type > p {
+    color: var(--gray);
+}
+/*------------------*/
