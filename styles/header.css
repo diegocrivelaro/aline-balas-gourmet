@@ -1,24 +1,25 @@
 /*------------------*/
-/* ESTRUTURA DO CABEÇALHO */
-header {
-    border-bottom: 1px solid var(--border-bottom);
-
+/* HEADER */
+#header {
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 100;
+
     background-color: var(--white);
+    border-bottom: .1rem solid var(--border-bottom);
 }
 
-header nav {
+#header #nav1 {
     height: 7.2rem;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.logo-title {
+#header #nav1 .logo-title {
     font-size: 2.5rem;
     font-weight: 800;
     font-family: 'Nunito';
@@ -26,24 +27,59 @@ header nav {
 
     color: var(--pink-strong);
 }
+/*------------------*/
 
-main {
-    margin-top: 11.6rem;
+/*------------------*/
+/* HEADER SHADOW SCROLL */
+header.scroll {
+    box-shadow: 0rem 0rem 1.2rem rgba(0, 0, 0, 0.2);
 }
 /*------------------*/
 
 /*------------------*/
-/* MENU MOBILE */
-nav .menu {
+/* NAVIGATION MENU */
+#header #nav1 ul li a {
+    position: relative;
+
+    text-shadow: .1rem .1rem .1rem rgba(0, 0, 0, 0.1);
+    color: var(--pink-strong);
+
+    transition: color .2s;
+}
+
+#header #nav1 ul li a:hover {
+    color: var(--pink-low);
+}
+
+#header #nav1 ul li a::after { /* Animação da barra aparecendo em baixo dos tópicos do menu */
+    content: '';
+
+    width: 0%;
+    height: .2rem;
+
+    position: absolute;
+    left: 0;
+    bottom: -2.4rem;
+
+    transition: width .2s;
+    background-color: var(--pink-strong);
+}
+
+#header #nav1 ul li a:hover::after { /* Aplicar width: 100 na barra, quando o mouse estiver em cima do tópico do menu */
+    width: 100%;
+}
+/*------------------*/
+
+/*------------------*/
+/* NAVIGATION MENU MOBILE */
+#nav1 .menu-navigation {
     opacity: 0;
     visibility: hidden;
 }
 
-nav.show .menu {
+#nav1.show .menu-navigation {
     opacity: 1;
     visibility: visible;
-
-    background-color: var(--white);
 
     position: fixed;
     top: 0;
@@ -53,21 +89,37 @@ nav.show .menu {
 
     display: grid;
     place-content: center;
+
+    background-color: var(--white);
 }
 
-nav.show .menu ul li {
+#header #nav1.show ul.grid {
+    display: grid;
+    gap: 6.4rem;
+}
+
+#nav1.show .menu-navigation ul > li {
     text-align: center;
-    margin-bottom: 6.4rem;
 }
 
-nav.show .menu ul li:last-of-type{
-    margin-bottom: 0;
-}
-/*------------------*/
+#header #nav1 .toggle {
+    font-size: 2.4rem;
+    color: var(--gray);
 
-/*------------------*/
-/* HEADER SHADOW SCROLL */
-#header.scroll {
-    box-shadow: 0rem 0rem 1.2rem rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+/* TOOGLE NAVIGATION MENU*/
+#nav1 .icon-x {
+    opacity: 0;
+    visibility: hidden;
+
+    position: absolute;
+    right: 2.6rem;
+}
+
+#nav1.show div.icon-x {
+    opacity: 1;
+    visibility: visible;
 }
 /*------------------*/

@@ -2,6 +2,10 @@
 
 /*------------------*/
 /* IMAGENS */
+#home {
+    margin-top: 12.0rem;
+}
+
 #home #items-wrapper {
     width: 100vw;
 }
