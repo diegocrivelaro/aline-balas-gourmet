@@ -17,10 +17,6 @@
 
 /*------------------*/
 /* TEXT ABOUT */
-#about div:last-of-type > h2 {
-    margin-bottom: 1.6rem;
-}
-
 #about div:last-of-type p {
     color: var(--gray);
 }

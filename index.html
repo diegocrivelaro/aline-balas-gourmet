@@ -6,15 +6,6 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- CSS -->
-        <link rel="stylesheet" href="styles/reset.css">
-        <link rel="stylesheet" href="styles/global.css"> 
-        <link rel="stylesheet" href="styles/header.css">
-        <link rel="stylesheet" href="styles/home.css">
-        <link rel="stylesheet" href="styles/about.css">
-        <link rel="stylesheet" href="styles/contact.css">
-        <link rel="stylesheet" href="styles/baseboard.css">
-        
         <!-- FONTS -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,6 +14,16 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
 
+        <!-- CSS -->
+        <link rel="stylesheet" href="styles/reset.css">
+        <link rel="stylesheet" href="styles/global.css"> 
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/home.css">
+        <link rel="stylesheet" href="styles/candy-menu.css">
+        <link rel="stylesheet" href="styles/about.css">
+        <link rel="stylesheet" href="styles/contact.css">
+        <link rel="stylesheet" href="styles/baseboard.css">
+        
         <!-- ICON -->
         <link rel="stylesheet" href="assets/fonts/style.css">
 
@@ -50,6 +51,7 @@
         </header>
 
         <main>
+            <!-- HOME -->
             <section id="home">
                 <div id="items-wrapper">
                     <div id="items">
@@ -83,13 +85,27 @@
                     <div id="text-home">
                         <h2 class="title">Balas para adoçar seu dia!</h2>
                         <p>Um empreendimento localizado exclusivamente em Orlândia-SP</p>
-                        <a id="button-request" href="https://api.whatsapp.com/send?1=pt_BR&phone=5516993070022&text=Ol%C3%A1,%20Aline!%20Quero%20fazer%20um%20pedido!" rel="external" target="_blank">Fazer pedido!</a>
+                        <a id="button-request" href="candy-menu.html">Fazer pedido!</a>
                     </div>
                 </div>
             </section>
 
             <div class="divider"></div>
 
+            <!-- CANDY MENU -->
+            <section id="candy-menu" class="container">
+                <h2 class="title">Cardápio de Doces</h2>
+                <p>Temos um <b>cardápio online</b> para facilitar seu pedido!</p>
+                <div id="candymenu-button">
+                    <a class="icon-menu_book" href="candy-menu.html">
+                        <span>Cardápio</span>
+                    </a>
+                </div>
+            </section>
+
+            <div class="divider"></div>
+
+            <!-- ABOUT -->
             <section id="about"> <!-- ABRINDO A SECTION ABOUT -->
                 <div class="about-image">
                     <img src="assets/images/aline-marialuisa.jpg" alt="Foto da Aline e da Maria Luisa">
@@ -110,6 +126,7 @@
 
             <div class="divider"></div>
 
+            <!-- CONTACT -->
             <section class="container" id="contact">
                 <h2 class="title">Entre em contato com a gente!</h2>
                 <p>Estamos de braços abertos para tirar suas dúvidas, ouvir suas sugestões e receber seu pedido! &#x1F917 </p>
@@ -128,6 +145,7 @@
                 </div>
             </section>
 
+            <!-- BASEBOARD -->
             <footer id="baseboard">
                 <div class="container">
                     <nav>
@@ -143,8 +161,5 @@
                 </div>
             </footer>
         </main>
-
-        <script src="/javascript/main.js"></script>
-
     </body>
 </html>
