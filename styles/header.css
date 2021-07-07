@@ -67,7 +67,7 @@ nav.show .menu ul li:last-of-type{
 
 /*------------------*/
 /* HEADER SHADOW SCROLL */
-#header.scroll {
+header.scroll {
     box-shadow: 0rem 0rem 1.2rem rgba(0, 0, 0, 0.2);
 }
 /*------------------*/
