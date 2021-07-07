@@ -75,6 +75,9 @@ header.scroll {
 #nav1 .menu-navigation {
     opacity: 0;
     visibility: hidden;
+
+    top: -32rem;
+    transition: .2s;
 }
 
 #nav1.show .menu-navigation {
@@ -91,6 +94,10 @@ header.scroll {
     place-content: center;
 
     background-color: var(--white);
+}
+
+nav .menu-navigation ul {
+    display: none;
 }
 
 #header #nav1.show ul.grid {
@@ -115,17 +122,22 @@ header.scroll {
     visibility: hidden;
 
     position: absolute;
+    top: -2.4rem;
     right: 2.6rem;
+
+    transition: .2s;
 }
 
 #nav1.show div.icon-x {
     opacity: 1;
     visibility: visible;
+
+    top: 2.4rem;
 }
 /*------------------*/
 
 /*------------------*/
-/* CANDY MENU - CANDY-MENU.HTML */
+/* CANDY MENU - MEALPLAN.HTML */
 #mealplan-navegation {
     margin-top: 9.2rem;
 }

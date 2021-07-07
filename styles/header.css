@@ -75,22 +75,29 @@ header.scroll {
 #nav1 .menu-navigation {
     opacity: 0;
     visibility: hidden;
+
+    top: -32rem;
+    transition: .2s;
 }
 
 #nav1.show .menu-navigation {
     opacity: 1;
     visibility: visible;
-
+    
     position: fixed;
     top: 0;
     left: 0;
     height: 100vh;
     width: 100vw;
-
+    
     display: grid;
     place-content: center;
-
+    
     background-color: var(--white);
+}
+
+nav .menu-navigation ul {
+    display: none;
 }
 
 #header #nav1.show ul.grid {
@@ -115,11 +122,16 @@ header.scroll {
     visibility: hidden;
 
     position: absolute;
+    top: -2.4rem;
     right: 2.6rem;
+
+    transition: .2s;
 }
 
 #nav1.show div.icon-x {
     opacity: 1;
     visibility: visible;
+
+    top: 2.4rem;
 }
 /*------------------*/
